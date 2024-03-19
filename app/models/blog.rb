@@ -7,7 +7,7 @@ class Blog < ApplicationRecord
 
   # associations 
   has_and_belongs_to_many :categories
-
+  has_many :likes, as: :likeable
   has_one_attached :cover_image
 
   def cover_image_url 

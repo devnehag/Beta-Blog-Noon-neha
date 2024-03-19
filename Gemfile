@@ -35,6 +35,7 @@ gem "rack-cors"
 gem 'bcrypt'
 gem 'jwt'
 gem 'blueprinter'
+gem 'pusher'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -52,5 +53,5 @@ group :development do
 end
 
 group :production do 
-  gem 'pg'
+  #gem 'pg'
 end
